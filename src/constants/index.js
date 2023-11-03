@@ -209,7 +209,7 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
-
+const tra = 1;
 const projects = [
   {
     name: "Car Rent App",
