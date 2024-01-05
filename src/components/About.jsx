@@ -53,7 +53,12 @@ const About = () => {
       </motion.p>
 
       <motion.div className="mt-4" varients={fadeIn("", "", 0.1, 1)}>
-        <a href="/zuhriddin-tech.pdf" download target="_blank" rel="noreferrer">
+        <a
+          href="/zuhriddin-tech5.pdf"
+          download
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="text-white font-medium text-[18px] bg-purple-600 hover:bg-[#915eff] w-36 h-10 rounded-md text-center transition ease-in-out delay-30 hover:translate-x-0.5  hover:scale-110 duration-300">
             Resume
           </button>
