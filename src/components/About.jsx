@@ -54,7 +54,7 @@ const About = () => {
 
       <motion.div className="mt-4" varients={fadeIn("", "", 0.1, 1)}>
         <a
-          href="/zuhriddin-tech5.pdf"
+          href="/zuhriddin-tech6.pdf"
           download
           target="_blank"
           rel="noreferrer"
