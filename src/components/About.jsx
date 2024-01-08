@@ -9,6 +9,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant, slideIn } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import Resume from "./Resume";
 
 const ServiceCard = ({ title, index, icon }) => {
   return (
@@ -52,19 +53,28 @@ const About = () => {
         guidelines.
       </motion.p>
 
-      <motion.div className="mt-4" varients={fadeIn("", "", 0.1, 1)}>
+      <motion.div className="mt-6" varients={fadeIn("", "", 0.1, 1)}>
         <a
-          href="/zuhriddin-tech6.pdf"
+          href="/zuhriddin-tech6(eng).pdf"
           download
           target="_blank"
           rel="noreferrer"
         >
           <button className="text-white font-medium text-[18px] bg-purple-600 hover:bg-[#915eff] w-36 h-10 rounded-md text-center transition ease-in-out delay-30 hover:translate-x-0.5  hover:scale-110 duration-300">
-            Resume
+            Resume(eng)
+          </button>
+        </a>
+        <a
+          href="/zuhriddin-tech6(kor).pdf"
+          download
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="text-white ml-4 font-medium text-[18px] bg-purple-600 hover:bg-[#5241af] w-36 h-10 rounded-md text-center transition ease-in-out delay-30 hover:translate-x-0.5  hover:scale-110 duration-300">
+            Resume(kor)
           </button>
         </a>
       </motion.div>
-      {/* variants={slideIn("left", "tween", 0.2, 1)} */}
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
